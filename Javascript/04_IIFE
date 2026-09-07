@@ -1,0 +1,12 @@
+//IIFE (Immediately Invoked Function).
+// It will get invoked as soon as it is declared.
+
+console.log("Hello World");
+
+(function greeting(){
+    console.log("Hellooo..!!")
+})();
+
+(() => {
+    console.log("Hii...!!");
+})();
