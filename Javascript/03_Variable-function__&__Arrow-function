@@ -1,0 +1,31 @@
+//Representation of function as a variable and Arrow Function.
+
+console.log("Hello World")
+
+
+//Function as a variable.
+const addNum1 = function(num1,num2){
+    return num1 + num2;
+}
+console.log(addNum1(6,4));
+
+
+//Arrow function.
+const addNum2 = (num1,num2) => {
+    return num1 + num2;
+}
+console.log(addNum2(6,4));
+
+
+//Single line Arrow Function.
+const addNum3 = (num1,num2) => num1 + num2;
+console.log(addNum3(6,4));
+
+//
+const square = (num) => num*num;
+console.log(square(4));
+
+
+//Single Parameter Arrow Function, no need of Paranthesis ().
+const cube = num => num*num*num;
+console.log(cube(4));
