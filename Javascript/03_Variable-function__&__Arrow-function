@@ -29,3 +29,18 @@ console.log(square(4));
 //Single Parameter Arrow Function, no need of Paranthesis ().
 const cube = num => num*num*num;
 console.log(cube(4));
+
+
+//Returning object in a Arrow Function (Multiline).
+const greeting1 = () => {
+    return {
+        name : "Sahil",
+        age : 22
+    }
+}
+console.log(greeting1);
+
+
+//Returning object in a Arrow Function (Single Line).
+const greeting2 = () => ({name : "Sahil Mali", age : 23});
+console.log(greeting2);
