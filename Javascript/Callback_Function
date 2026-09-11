@@ -1,0 +1,22 @@
+//Callback Function.
+
+console.log("Hello World");
+
+function zomatoOrder(){
+    console.log("Your zomato order is being prepared...")
+}
+
+function blinkitOrder(){
+    console.log("Your blinkit order is being packed..")
+}
+
+
+function paymentService(callback,amount){
+    console.log(`Rs. ${amount} payment is initialized...`);
+    console.log("Payment Received..");
+    callback();
+}
+
+paymentService(blinkitOrder,559);
+console.log("------------------------")
+paymentService(zomatoOrder,799);
